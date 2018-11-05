@@ -8,38 +8,23 @@
 
 body{
     background: gray;
-    font-famiiy: 'Noto Sans JP' , sans-serif;
 }
 
-/* 640px以下 */
-@media screen and (max-width:640px){
-    body{
-        background-color: red;
-    }
+header{
+    padding: 10px;
+    text-align: center;/* 中央揃え */
+    background-color: red;
 }
-
-/* 640px以上　980px以下 */
-@media screen and (min-width:641px) and (max-width:980px){
-    body{
-        background-color: green;
-    }
+section{
+    padding: 10px;
+    background-color: orange;
 }
-
-/* 981px以上 */
-@media screen and (min-width:981px){
-     body{
-         background-color: blue;
-     }
+aside{
+    padding: 10px;
+    background-color: blue;
 }
-
-@media screen and (orientation:portrait){
-    body:after {
-        content: "縦長";
-    }
-}
-
-@media screen and (orientation: landscape){
-    body:after {
-        content: "横長";
-    }
+footer{
+    padding: 10px;
+    background-color: biue;
+    text-aline: center; /* 中央揃え */
 }
