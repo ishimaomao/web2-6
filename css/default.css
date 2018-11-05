@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+body{
+    background: gray;
+    font-famiiy: 'Noto Sans JP' , sans-serif;
+}
+
 /* 640px以下 */
 @media screen and (max-width:640px){
     body{
